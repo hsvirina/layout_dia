@@ -1,0 +1,2 @@
+const e=document.querySelector(".icon--left"),t=document.querySelector(".icon--right"),l=Array.from(document.querySelectorAll(".slider__image")),c=l.length;let n=0;function r(){l.forEach((e,t)=>{t===n?e.style.display="flex":e.style.display="none"})}e.addEventListener("click",()=>{n=0!==n?n-1:c-1,r()}),t.addEventListener("click",()=>{n=n!==c-1?n+1:0,r()}),r();
+//# sourceMappingURL=index.87265727.js.map
